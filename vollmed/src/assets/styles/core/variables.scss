@@ -1,3 +1,7 @@
+@import './typography.scss';
+
+// Color Pallete
+
 $base-100: #EFFEF9;
 $base-200: #CAFDF0;
 $base-300: #57F1D3;
@@ -31,3 +35,10 @@ $blue-600: #113B69;
 $yellow-200: #E5F98F;
 $yellow-400: #D1CF0D;
 $yellow-600: #6D5A16;
+
+
+// Typography
+
+$heading-family: 'Monda', sans-serif;
+$body-family: 'Lato', sans-serif;
+
