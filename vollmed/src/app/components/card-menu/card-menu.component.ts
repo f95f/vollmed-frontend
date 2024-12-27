@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { menuItems } from '../../enums/menu.model';
+import { IMenu } from '../../interfaces/imenu';
 
 @Component({
   selector: 'app-card-menu',
@@ -8,4 +10,5 @@ import { Component } from '@angular/core';
 })
 export class CardMenuComponent {
 
+  menuItems: IMenu[] = menuItems;
 }

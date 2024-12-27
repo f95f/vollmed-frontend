@@ -1,1 +1,17 @@
-<p>card-menu works!</p>
+<div class="menu-wrapper">
+    <h1 class="light-text">
+        Select an action below:
+    </h1>
+    <div class="grid-container">
+        <ul class="menu-grid">
+            @for(item of menuItems; track item.index) {
+                <li class="card-item">
+                    <button class="card">
+                        <span></span>
+                        {{ item.title }}
+                    </button>
+                </li>
+            }
+        </ul>
+    </div>
+</div>
