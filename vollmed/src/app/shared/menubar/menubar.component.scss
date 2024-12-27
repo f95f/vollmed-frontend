@@ -1,0 +1,23 @@
+@import '../../../assets/styles/_core.scss';
+
+.menubar {
+    width: 100vw;
+    padding: 16px;
+    border-bottom: 2px solid $base-400;
+    box-shadow: 0 2px 8px #3333;
+    
+    .menu-wrapper {
+        max-width: min(100%, 1200px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+
+        .logo-wrapper {
+
+            .logo {
+                max-height: 24px;
+            }
+        }
+    }
+}
