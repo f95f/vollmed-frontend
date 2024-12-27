@@ -1,0 +1,21 @@
+@import '../../../assets/styles/_core.scss';
+
+footer {
+    width: 100vw;
+    padding: 16px;
+    border-top: 2px solid $base-400;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 -2px 8px #3333;
+    
+    .footer-wrapper {
+        max-width: min(100%, 1600px);
+        margin: auto;
+        
+        p {
+            color: $base-400;
+            font-size: .8em;
+        }
+    }
+}
