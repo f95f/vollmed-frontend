@@ -6,7 +6,6 @@ import { CardMenuComponent } from '../card-menu/card-menu.component';
 @Component({
   selector: 'app-home',
   imports: [
-    LayoutModule,
     SharedModule,
     CardMenuComponent
   ],

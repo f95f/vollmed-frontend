@@ -1,0 +1,33 @@
+@import '../../../assets/styles/_core.scss';
+
+.menu-wrapper {
+    background-color: $grey-50;
+    height: 100%;
+    padding: 32px;
+
+    h1 {
+        font-family: $heading-family;
+        font-size: 1.4em;
+        color: $grey-500;
+    }
+
+    .grid-container {
+        
+        .menu-grid {
+            margin-top: 32px;
+            display: flex;
+            gap: 8px;
+            // grid-template-columns: repeat(4, 1fr);
+
+            .card-item {
+                width: 200px;
+                aspect-ratio: 1;
+                background-color: $base-100;
+                border: 1px solid $base-200;
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+    }
+
+}
