@@ -7,8 +7,18 @@
             @for(item of menuItems; track item.index) {
                 <li class="card-item">
                     <button class="card">
-                        <span></span>
-                        {{ item.title }}
+                        <span class="material-symbols-outlined">
+                            home
+                        </span>
+                        <span class="material-symbols-outlined">
+                            {{ item.icon}}
+                        </span>
+                        <span class="card-title">
+                            {{ item.title }}
+                        </span>
+                        <span class="card-description">
+                            {{ item.description }}
+                        </span>
                     </button>
                 </li>
             }

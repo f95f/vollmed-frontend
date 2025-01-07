@@ -1,4 +1,4 @@
-@import '../../../assets/styles/_core.scss';
+@use 'assets/styles/core/variables.scss' as *;
 
 .menubar {
     width: 100vw;

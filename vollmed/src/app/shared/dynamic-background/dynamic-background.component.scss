@@ -1,5 +1,5 @@
 @use "sass:math";
-@import "../../../assets/styles/core";
+@use 'assets/styles/core/variables.scss' as *;
 
 .dynamic-background {
     position: absolute;
