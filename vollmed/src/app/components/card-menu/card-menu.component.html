@@ -1,16 +1,16 @@
 <div class="menu-wrapper">
-    <h1 class="light-text">
-        Select an action below:
-    </h1>
+    <div class="title-row">
+        <h1 class="light-text">
+            Select an action below:
+        </h1>
+    </div>
     <div class="grid-container">
+        <div class="spacer left-spacer"></div>
         <ul class="menu-grid">
             @for(item of menuItems; track item.index) {
                 <li class="card-item">
                     <button class="card">
-                        <span class="material-symbols-outlined">
-                            home
-                        </span>
-                        <span class="material-symbols-outlined">
+                        <span class="material-symbols-outlined icon">
                             {{ item.icon}}
                         </span>
                         <span class="card-title">
@@ -23,5 +23,7 @@
                 </li>
             }
         </ul>
+        <div class="spacer right-spacer"></div>
     </div>
+    <div class="footer-spacer"></div>
 </div>
